@@ -16,6 +16,7 @@
 |---|---|
 | [`user/tpc-usage.md`](./user/tpc-usage.md) | **主手册**：按需查阅地图、报错定位表、三条硬约定（z 平面 / 布尔语义 / 阵列范围）、已知库缺陷、验收清单 |
 | [`user/topo-quickstart.md`](./user/topo-quickstart.md) | ⭐ **拓扑光子晶体建模专用技能（TOPO 模块）**：器件结构解剖（超元胞六孔 → 两种相 → 域壁 → 相区 → 阵列覆盖 → 馈源/端口）、与参考工程（`硅基` notebook）逐值对齐的参数口径表、AB/BA 不变式、装配顺序、**离线拓扑正确性自检**、语义错位清单（`l1`/`l2` 命名错位等）、验收与排错、器件族可实现性判据 |
+| [`user/cst-metal-stack-jumpers.md`](./user/cst-metal-stack-jumpers.md) | 双面金属、连续 YIG、石英微带与弧形跳线组合；含 Torus 半径差异、探针避让及端口计算域经验 |
 | [`user/tri-grid.md`](./user/tri-grid.md) | 三角晶格算法库 API 速查 |
 | [`user/hex-grid.md`](./user/hex-grid.md) | 六边形晶格算法库 API 速查 |
 | [`user/topo-modeler.md`](./user/topo-modeler.md) | 建模引擎使用者视角（模板层 / Modeler 层 / Builder 层三种用法） |
@@ -57,6 +58,8 @@ DSH（DeepSeek Harness）扫描的是 `.dsh/skills/`，两者内容一致、都�
 | [`../.github/skills/tpc-user/SKILL.md`](../.github/skills/tpc-user/SKILL.md) | [`user/tpc-usage.md`](./user/tpc-usage.md) |
 | [`../.github/skills/topo-quickstart/SKILL.md`](../.github/skills/topo-quickstart/SKILL.md) | [`user/topo-quickstart.md`](./user/topo-quickstart.md) |
 | [`../.dsh/skills/topo-quickstart/SKILL.md`](../.dsh/skills/topo-quickstart/SKILL.md) | [`user/topo-quickstart.md`](./user/topo-quickstart.md)（DSH 自动发现入口） |
+| [`../.github/skills/cst-metal-stack-jumpers/SKILL.md`](../.github/skills/cst-metal-stack-jumpers/SKILL.md) | [`user/cst-metal-stack-jumpers.md`](./user/cst-metal-stack-jumpers.md) |
+| [`../.dsh/skills/cst-metal-stack-jumpers/SKILL.md`](../.dsh/skills/cst-metal-stack-jumpers/SKILL.md) | [`user/cst-metal-stack-jumpers.md`](./user/cst-metal-stack-jumpers.md) |
 
 **唯一事实来源是本目录**。改技能内容改这里，`.github/` 与 `.dsh/` 下的薄壳不用动
 （但**新增 skill 时要同时补这两个薄壳**，否则 IDE / DSH 发现不到）。

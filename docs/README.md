@@ -19,6 +19,7 @@
 | **第一次接触这个项目**，想知道有哪些包、各干什么 | [`ARCHITECTURE.md`](./ARCHITECTURE.md) ← **从这里开始** |
 | 深入看某个包的设计与 API | [`packages/`](./packages/) 下对应的一份 |
 | **用库建模型**（写 notebook、排错、验收） | [`../skills/user/tpc-usage.md`](../skills/user/tpc-usage.md) |
+| 双面拓扑金属、石英微带与弧形跳线 | [组合技能](../skills/user/cst-metal-stack-jumpers.md) · [CST 2025 建模记录](validation/cst2025_metal_stack_jumpers_20261118.md) |
 | 用三角晶格/路径 DSL | [`../skills/user/tri-grid.md`](../skills/user/tri-grid.md)、[`guides/topo_modeler_guide_stage0-3.md`](./guides/topo_modeler_guide_stage0-3.md) |
 | 用六边形晶格 / DXF 导出 | [`../skills/user/hex-grid.md`](../skills/user/hex-grid.md)、[`guides/hex_grid_guide.md`](./guides/hex_grid_guide.md) |
 | **维护/扩展库本身**（改代码） | [`../skills/developer/WORKFLOW.md`](../skills/developer/WORKFLOW.md) ← 开发宪法 |
