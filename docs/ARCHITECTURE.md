@@ -340,6 +340,13 @@ from tpc_service import RunService          # 工程注册 + 任务服务（不�
     `record_failure(...)` 或显式 `risk_ok` 理由。报告：
     [静默失败审计](./guides/silent_failure_audit.md)；回归 `tests/test_silent_failure_audit.py`。
 
+
+13. **兼容处理必须限定对象和证据范围**（CST 2025，2026-11-20）：
+    Units 的 Reset 报接口错误不代表其他对象不能 Reset；复杂轮廓的绕行构造也不代表已有通用修复算法。
+    工程保存、几何读回、历史重放与求解收敛分别报告。
+    详见 [通用排错记录](validation/cst2025_general_troubleshooting_20261120.md)
+    和 [组件技能](../skills/user/cst-metal-stack-jumpers.md)。
+
 ---
 
 ## 7. 我要做 X，该动哪个包？
