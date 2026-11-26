@@ -21,6 +21,7 @@
 | **用库建模型**（写 notebook、排错、验收） | [`../skills/user/tpc-usage.md`](../skills/user/tpc-usage.md) |
 | 双面拓扑金属、石英微带与弧形跳线 | [组合技能](../skills/user/cst-metal-stack-jumpers.md) · [CST 2025 建模记录](validation/cst2025_metal_stack_jumpers_20261118.md) |
 | CST 2025 会话、宏接口、轮廓和保存错误 | [通用排错经验（2026-11-20）](validation/cst2025_general_troubleshooting_20261120.md) |
+| 宽带金属渐变匹配：轮廓参数化、联合优化、几何联动与收敛验证 | [通用优化方法](guides/cst_metal_taper_optimization.md) |
 | 用三角晶格/路径 DSL | [`../skills/user/tri-grid.md`](../skills/user/tri-grid.md)、[`guides/topo_modeler_guide_stage0-3.md`](./guides/topo_modeler_guide_stage0-3.md) |
 | 用六边形晶格 / DXF 导出 | [`../skills/user/hex-grid.md`](../skills/user/hex-grid.md)、[`guides/hex_grid_guide.md`](./guides/hex_grid_guide.md) |
 | **维护/扩展库本身**（改代码） | [`../skills/developer/WORKFLOW.md`](../skills/developer/WORKFLOW.md) ← 开发宪法 |
